@@ -20,7 +20,7 @@ You will need to have the following software installed on your system
 
 - [Nodejs](https://nodejs.org/en/download/), a JavaScript runtime that lets you run applications outside the browser
 - [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) a package manager for Nodejs software packages (Comes with Node)
-- [MongoDB] (https://www.mongodb.com/try/download/community) installation 
+- [MongoDB](https://www.mongodb.com/try/download/community) installation 
 
 ### Installing
 
