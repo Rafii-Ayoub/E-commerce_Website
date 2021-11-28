@@ -1,8 +1,8 @@
 # E-shop Backend
 
-![] https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white  
-![] https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
-![] https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white
+![]( https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white ) 
+![]( https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![]( https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 This project is the backend of an online shop that cointains different components : products - users - orders ...
 We used principally Node.js to set-up the framework for routes, controllers and creating models to handle data. We used also MongDB to store and get data. MongoDB is a NoSQL datbase program. So RESTful API was created for GET, POST, DELETE, PATCH requests containing 'id, name, price, description, ...' for each product/category/order/user stored in the DB. APIs were tested using Postman. Controllers are added to clean up the routes files.
@@ -21,9 +21,6 @@ You will need to have the following software installed on your system
 - [Nodejs](https://nodejs.org/en/download/), a JavaScript runtime that lets you run applications outside the browser
 - NPM, a package manager for Nodejs software packages (Comes with Node)
 - MongoDB installation 
-- [Stripe](https://dashboard.stripe.com/register) account (Test account will work)
-- [Cloudinary](https://cloudinary.com/) account for image uploads
-- [Sendgrid](sendgrid.com) account
 
 ### Installing
 
