@@ -5,7 +5,7 @@
 ![]( https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 This project is the backend of an online shop that cointains different components : products - users - orders ...
-We used principally Node.js to set-up the framework for routes, controllers and creating models to handle data. We used also MongDB to store and get data. MongoDB is a NoSQL datbase program. So RESTful API was created for GET, POST, DELETE, PATCH requests containing 'id, name, price, description, ...' for each product/category/order/user stored in the DB. APIs were tested using Postman. Controllers are added to clean up the routes files.
+We used principally Node.js to set-up the framework for routes, controllers and creating models to handle data. We used also MongDB to store and get data. MongoDB is a NoSQL datbase program. So RESTful API was created for GET, POST, DELETE, PATCH requests containing 'id, name, price, description, ...' for each ( product, category, order, user) stored in the DB. APIs were tested using Postman. Controllers are added to clean up the routes files.
 
 ## The Architucture of our API
 ![](images/architecture.png)
