@@ -8,7 +8,7 @@ This project is the backend of an online shop that cointains different component
 We used principally Node.js to set-up the framework for routes, controllers and creating models to handle data. We used also MongDB to store and get data. MongoDB is a NoSQL datbase program. So RESTful API was created for GET, POST, DELETE, PATCH requests containing 'id, name, price, description, ...' for each product/category/order/user stored in the DB. APIs were tested using Postman. Controllers are added to clean up the routes files.
 
 ## The Architucture of our API
-![](images/API.PNG)
+![](images/architecture.png)
 
 ## Getting Started
 
