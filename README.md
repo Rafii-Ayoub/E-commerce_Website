@@ -19,8 +19,8 @@ Follow instructions below to have a copy of this project up and running on your 
 You will need to have the following software installed on your system
 
 - [Nodejs](https://nodejs.org/en/download/), a JavaScript runtime that lets you run applications outside the browser
-- NPM, a package manager for Nodejs software packages (Comes with Node)
-- MongoDB installation 
+- [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) a package manager for Nodejs software packages (Comes with Node)
+- [MongoDB] (https://www.mongodb.com/try/download/community) installation 
 
 ### Installing
 
@@ -58,17 +58,18 @@ npm start
 
 ## Built principally With
 
-* [Nodejs](https://expressjs.com/) - Web framework used
+* [Nodejs](https://nodejs.com/) - Web framework used
 * [Expressjs](https://expressjs.com/) - Web framework used
 * [MongoDB](https://www.mongodb.com) - Database
 
 ## The following definitions in quotes below are provided from npm.js :
 
-* Body-Parser - "Parse incoming request bodies in a middleware before your handlers, available under the req.body property."
-
-* Morgan - "HTTP request logger middleware for node.js."
 
 * Express.js - Node web framework used for APIs and server connections.
 
 * Mongoose.js - "Mongoose provides a straight-forward, schema-based solution to model your application data. It includes built-in type casting, validation, query building, business logic hooks and more, out of the box (courtesy of mongoose.js)."
+
+* Body-Parser - "Parse incoming request bodies in a middleware before your handlers, available under the req.body property."
+
+* Morgan - "HTTP request logger middleware for node.js."
 
