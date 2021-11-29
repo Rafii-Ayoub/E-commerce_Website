@@ -6,6 +6,11 @@ var ProductSchema = new Schema({
   name : String,
   description : String,
   price : Number,
+  categoryID : {
+        type:mongoose.Schema.Types.ObjectId,
+        ref :  "Category"
+  },
+  
   addedAt : {
     type : Date,
     default : Date.now
