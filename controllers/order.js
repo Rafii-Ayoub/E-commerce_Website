@@ -2,8 +2,8 @@ function createOrder(req, res) {
     let Order = require('../models/order');
     let newOrder = Order ({
         client : req.body.client,
-        pizza : req.body.pizza,
-        prix : req.body.prix
+        produit : req.body.product,
+        prix : req.body.price
     });
   
     newOrder.save()
@@ -36,8 +36,8 @@ function createOrder(req, res) {
 
     Order.findByIdAndUpdate({_id: req.params.id}, 
         {client : req.body.client, 
-        pizza : req.body.pizza,
-        prix : req.body.prix}, 
+        produit : req.body.product,
+        prix : req.body.price}, 
         {new : true})
     .then((updatedOrder) => {
         res.status(200).json(updatedOrder);
